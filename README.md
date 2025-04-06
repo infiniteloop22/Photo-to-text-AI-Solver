@@ -1,1 +1,1 @@
-# Photo-to-text-AI-Solver
+# WIP - Photo-to-text-AI-Solver
