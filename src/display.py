@@ -42,7 +42,7 @@ class Display:
         cv.destroyAllWindows()
 
     def preprocess_img():
-        #img_path = ".\\unnamed.png"
+        #img_path = "test_images/unnamed.png"
         #print(f"Checking image path: {os.path.abspath(img_path)}")
 
         while True:
@@ -78,8 +78,7 @@ class Display:
                 #cv.imwrite("test_images/img_grayscale.png", img2)
                 #cv.imwrite("test_images/img_blur.png", blurred)
                 cv.imwrite("test_images/img_adpt_thrs.png", adaptive_thresh)
-                print("Saving image as img_xxx.png")
+                print("Saving image...")
+                return "test_images/img_adpt_thrs.png"
             elif key == 27:
-                #sys.exit("Exiting...")
-                print("Exiting...")
                 return

@@ -4,9 +4,9 @@ from display import Display
 #import os
 
 def main():
-    Display.frame_capture()
-    #Display.preprocess_img()
-    #OCR.perform_OCR
+    #Display.frame_capture()
+    img = Display.preprocess_img()
+    OCR.perform_OCR(img)
 
     #adaptive_image = "test_images/img_adpt_thrs.png"
     #blurred_image = "test_images/img_blur.png"
