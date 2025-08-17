@@ -1,4 +1,3 @@
 config.json
-src/__pycache__/api.cpython-313.pyc
-src/__pycache__/display.cpython-313.pyc
-src/__pycache__/ocr.cpython-313.pyc
+response data.txt
+src/__pycache__
