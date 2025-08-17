@@ -4,4 +4,3 @@
 - Extracts text from image with easyocr
 - Send query to Large Language Model (LLM)
 - Prints model response
-
