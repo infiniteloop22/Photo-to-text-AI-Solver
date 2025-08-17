@@ -1,6 +1,4 @@
 opencv-python
-#numpy
+numpy
 easyocr
-#torch
-#torchvision
-#torchaudio
+requests
