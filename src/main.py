@@ -17,7 +17,7 @@ def print_data(response):
 
     if response.status_code == 200: # Successful http request
         print(f"Success! \nmodel: {info.get("model")} \nmessage: {info.get("message")}")
-        with open("response data.txt", 'w') as file:
+        with open("response_data.txt", 'w') as file:
             file.write(data_str) # view contents
     else:
         print("Error: Could not retrieve data.")
